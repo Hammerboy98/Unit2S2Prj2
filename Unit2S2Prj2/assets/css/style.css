@@ -1,0 +1,50 @@
+nav img {
+  width: 90px;
+}
+ul li a {
+  color: white !important;
+}
+.avatar {
+  width: 25px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: red;
+}
+main {
+  color: white;
+}
+main .menu {
+  left: 210px;
+  top: 10px;
+}
+main h1 {
+  margin-left: 34px;
+}
+.img-hover {
+  width: 200px;
+}
+.img-hover:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+#carouselRow1,
+#carouselRow2,
+#carouselRow3 {
+  display: flex;
+  transition: transform 1s ease;
+}
+#carouselRow.paused {
+  transition: none;
+}
+
+#carouselRow1,
+#carouselRow2,
+#carouselRow3 img {
+  transition: transform 0.3s ease;
+}
+footer {
+  position: relative;
+  left: 70px;
+}

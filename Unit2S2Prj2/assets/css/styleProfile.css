@@ -1,0 +1,20 @@
+body {
+  color: white;
+}
+
+nav img {
+  width: 90px;
+}
+ul li a {
+  color: white !important;
+}
+.avatar {
+  width: 25px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: red;
+}
+.avatarDiv {
+  width: 150px;
+}
